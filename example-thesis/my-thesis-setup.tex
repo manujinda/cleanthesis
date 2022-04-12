@@ -82,6 +82,18 @@
     urlcolor=ctcoloraccessory,
 }
 
+
+% **************************************************
+% Setting up automatically added prefix to the section, figere, etc., when referred using \autoref{}
+% **************************************************
+\def\sectionautorefname{Section}
+\def\figureautorefname{Figure}
+\def\tableautorefname{Table}
+\def\equationautorefname{Equation}
+\def\sentenceautorefname{Sentence}
+\providecommand*{\listingautorefname}{Listing}  %   - Not yet working
+%\renewcommand{\lstlistingname}{Code}           %   - Only changes Listing to Code at the listing but not the reference
+
 % **************************************************
 % Other Packages
 % **************************************************
