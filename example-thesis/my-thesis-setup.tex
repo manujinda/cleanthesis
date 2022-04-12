@@ -64,6 +64,11 @@
 }{cleanthesis}
 \usepackage{cleanthesis}
 
+% Indent first line of each paragrah.
+% Line 329 of cleanthesis.sty sets this but does not take effect. Putting this as the last line of that file too does
+% not have an effect. So, I am replicating it here.
+\setlength{\parindent}{2.2em}
+
 \hypersetup{% setup the hyperref-package options
     pdftitle={\thesisTitle},    %   - title (PDF meta)
     pdfsubject={\thesisSubject},%   - subject (PDF meta)
